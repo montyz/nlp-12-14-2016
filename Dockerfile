@@ -15,3 +15,4 @@ RUN pip3 install datasketch
 RUN pip3 install -U spacy
 RUN python -m spacy.en.download all
 
+RUN pip3 install PyICU
