@@ -7,10 +7,6 @@ cd into this directory and build with docker
 
 - `docker build -t nlp-12-14-2016 .`
 
-Or just pull from docker hub:
-
-- `docker pull monty0/nlp-12-14-2016`
-
 And then to run it on port 8888:
 
 - `docker run -p 8888:8888 -i -t nlp-12-14-2016`
